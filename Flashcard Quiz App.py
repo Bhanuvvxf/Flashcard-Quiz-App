@@ -39,19 +39,5 @@ while True:
         if len(questions) == 0 or len(answers) == 0 :
              print(f"Congratulations! You scored {score} out of 5!")
              break
-"""
-    elif random_question == 1:
-        x = questions.pop(random_question)
-        a = answers.pop(random_question)
-        print(f"Flashcard {y}:",x)
-        y +=1
-        answer = input("Your answer: ")
-        if answer == a :
-            score += 1 
-            print("Correct! Your score: ",score)
-        else:
-            print("Wrong ! Your score: ",score)
-"""
-    
         
         
